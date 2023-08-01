@@ -103,7 +103,7 @@ a {
     margin-bottom: 10px;
 }
 
-.hero button {
+button {
     background: #3882f6;
     color: #f9faf8;
     outline: none;
@@ -115,7 +115,7 @@ a {
 }
 
 .random-info {
-    margin-top: 50px;
+    padding: 50px 250px;
 }
 
 .random-info h2 {
@@ -145,4 +145,72 @@ figure img {
 
 .random-info {
     padding-bottom: 100px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.testimonial {
+    background: #e5e7eb;
+    padding: 200px 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+blockquote footer {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.cta {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-tab {
+  background: #3882f6;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.cta-left {
+    flex: 1;
+}
+
+.cta-right {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+}
+
+.cta-right button {
+    border: 2px solid #f9faf8;
+    width: 120px;
+    padding: 5px;
+}
+
+.cta-left p {
+    margin-top: 10px;
+}
+
+.footer {
+    background: var(--header-footer);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #fff;
 }
